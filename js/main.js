@@ -106,7 +106,7 @@ function resultScreen(result) {
                     setTimeout(function(){
                         $('.winMsg .winBox').text(player1.name + ' won the match!').css('color', 'red');
                         setupGame.buttonChange();
-                    },1);
+                    },100);
                 }
                 $('.playerDisplay1').text(player1.gameWon);
 
@@ -120,7 +120,7 @@ function resultScreen(result) {
                     setTimeout(function(){
                         $('.winMsg .winBox').text(player2.name + ' won the match!').css('color', 'red');
                         setupGame.buttonChange();
-                    },1);
+                    },100);
                 }
                 $('.playerDisplay2').text(player2.gameWon);
             }
