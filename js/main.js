@@ -48,7 +48,6 @@ function processResetClick(value){
     $('.resetMessageContainer').css({display:'none'});
     if(value === 'yes'){
         board.resetBoard();
-        $(".winMsg").css('display', 'none');
     }
 }
 
@@ -113,16 +112,14 @@ function resultScreen(result) {
                 player1.gameWon++;
                 if(!(player1.gameWon > seriesLength/2.0)){
                     winBox = $("<div>").addClass('winBox').text(player1.name + ' won the game!');
-                    $(".winMsg").css('display', 'block');
                 } else {
                     winBox = $("<div>").addClass('winBox');
                     setTimeout(function(){
                         $('.winMsg .winBox').text(player1.name + ' won the match!').css({
                             color:'red',
                         });
-                        $(".winMsg").css('display', 'block');
                         setupGame.buttonChange();
-                    },1);
+                    },100);
                 }
                 $('.playerDisplay1').text(player1.gameWon);
 
@@ -131,16 +128,14 @@ function resultScreen(result) {
                 player2.gameWon++;
                 if(!(player2.gameWon > seriesLength/2.0)){
                     winBox = $("<div>").addClass('winBox').text(player2.name + ' won the game!');
-                    $(".winMsg").css('display', 'block');
                 } else {
                     winBox = $("<div>").addClass('winBox');
                     setTimeout(function(){
                         $('.winMsg .winBox').text(player2.name + ' won the match!').css({
                             color:'red',
                         });
-                        $(".winMsg").css('display', 'block');
                         setupGame.buttonChange();
-                    },1);
+                    },100);
                 }
                 $('.playerDisplay2').text(player2.gameWon);
             }
