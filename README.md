@@ -21,8 +21,9 @@ View this project live [HERE](http://natureconnect.briantmorris.com/)
 
 ## Features
 
-- [x] Multiplayer Modes
+- [x] Multiplayer Mode
 - [x] Single Player vs AI
+- [x] Best-of-N series selection
 - [x] Responsive design for Desktop and Mobile devices
 
 
