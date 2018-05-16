@@ -40,7 +40,7 @@ class Board {
         }
     }
     updateBoardArray(row, column, currentPlayer) {
-        //go through each row at my column and check if there is a 0 there. if yes change to currentPlayer variable return
+        //go through each row in the column and check if there is a 0 there. if yes change to currentPlayer variable return
         for (var i = this.boardArray.length - 1; i >= 0; i--) {
             if (this.boardArray[i][column] === 0) {
                 this.boardArray[i][column] = currentPlayer;
@@ -121,6 +121,5 @@ class Board {
         $('.winMsg').text('');
         activeWinner = false;
         this.changePlayer(true);        
-        
     }
 };

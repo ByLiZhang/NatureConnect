@@ -13,7 +13,7 @@ This project was originally built during a 2-day hackathon. It grew out of our d
 ## Usage
 Player(s) can choose the number of matches to play in a Best-of-N series.
 
-To add more depth to the Connect Four game play, we programmed a simple AI that is enabled against a single player by default. Two-players mode can be selected from the AI/Human toggle button. Prospective players only need to select their tokens, and then click on the start button to begin!
+To add more depth to the Connect Four game play, we programmed a simple AI that is enabled against a single player by default. Two-players mode can be selected by clicking the AI/Human dropdown menu. Prospective players only need to select their tokens, and then click on the start button to begin!
 
 ## Project
 

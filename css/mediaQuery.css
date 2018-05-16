@@ -29,7 +29,7 @@
         font-size: 1.6rem;
     }
     .opponentSelect {
-        font-size: 1.2 rem;
+        font-size: 1.2rem;
     }
     .landingHeader{
         font-size:3rem;
@@ -101,7 +101,6 @@
     }
 
     .landingPlayer{
-        /* height:40%; */
         margin: 0 auto;
     }
     .playerName2 {
@@ -156,7 +155,7 @@
     }
 }
 
-@media only screen and (min-width: 760px) {
+@media only screen and (min-width: 768px) {
     .tokens{
         flex-flow: row;
         height: 26vh;
