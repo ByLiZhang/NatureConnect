@@ -1,28 +1,29 @@
 <p align='center'>
-<img src = "./assets/NatureConnect_ReadMe.PNG" style="width:400px;border-radius:3%;border:outset black 4px">
+<img src ="./assets/NatureConnect_ReadMe.PNG" style="width:400px;border-radius:3%;border:outset black 4px">
 </p>
 
 # Nature Connect
 
-Nature Connect is a web application take on the classic connect four game!
+NatureConnect is a web application version of the classic Connect Four game!
 
 ## Motivation
 
-This project was built for a 2-day hackathon and grew out of our desire to expand our javascript skills while making a simple game with a clear Nature theme.
+This project was originally built during a 2-day hackathon. It grew out of our desire to expand our JavaScript skills while making a simple game with a Nature theme.
 
 ## Usage
+Player(s) can choose the number of matches to play in a Best-of-N series.
 
-To add more depth to our connect 4 game we programmed a simple AI to enable single player play. Single player mode is the default, and prospective players only need to select their token choices before clicking the start button!
+To add more depth to the Connect Four game play, we programmed a simple AI that is enabled against a single player by default. Two-players mode can be selected from the AI/Human toggle button. Prospective players only need to select their tokens, and then click on the start button to begin!
 
 ## Project
 
-View this project live [HERE](natureconnect.briantmorris.com/)
+View this project live [HERE](http://natureconnect.briantmorris.com/)
 
 ## Features
 
-- [x] Single And Multiplayer Modes
-- [x] Single Player Ai
-- [x] Design made for Desktop and Mobile use
+- [x] Multiplayer Modes
+- [x] Single Player vs AI
+- [x] Responsive design for Desktop and Mobile devices
 
 
 ## Technologies Used
@@ -30,13 +31,13 @@ View this project live [HERE](natureconnect.briantmorris.com/)
 - [JavaScript](https://www.javascript.com/)
 - [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
 - [CSS3](https://www.w3.org/Style/CSS/Overview.en.html)
-- [Jquery](https://jquery.com/)
+- [jQuery](https://jquery.com/)
 
 ## Contributors
 
 [Briantmorr](https://github.com/Briantmorr) |
-[bylizhang](https://github.com/bylizhang) |
 [pdrx91](https://github.com/pdrx91) |
+[ByLiZhang](https://github.com/bylizhang)
 
 ## License
-This project is licensed under the MIT License © [Brian Morris](briantmorris.com)
+This project is licensed under the MIT License © [Li Zhang](http://bylizhang.com)
