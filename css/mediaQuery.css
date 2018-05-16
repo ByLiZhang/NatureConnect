@@ -159,7 +159,7 @@
     .tokens{
         flex-flow: row;
         height: 26vh;
-        width: 50vh;
+        width: 90%;
         min-height: 200px;
         min-width: 400px;
     }
