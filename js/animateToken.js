@@ -30,8 +30,7 @@ class TokenAnimation{
         var rowPosition = target.position().top - $('#tokenActive').position().top;
         setTimeout(() => {tokenExplosion.explode(row, col, duration-500)});
         $('div.gameContainer').addClass('disableClicks');
-        token.animate({top: rowPosition},
-            duration, 'easeOutBounce', () =>{
+        token.animate({top: rowPosition}, duration, 'easeOutBounce', () =>{
                 $('div.gameContainer').addClass('disableClicks');
                 this.changeToFaux(row, col, playerNumber, playerToken);
                 token.css('display','none');
