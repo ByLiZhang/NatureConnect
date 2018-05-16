@@ -460,9 +460,6 @@ button.disabled{
     height: 13%;
     width: 80vmin;
     position: absolute;
-    /* right: -28%; */
-    /* border: 1px solid red;
-    box-sizing: border-box; */
 }
 
 #tokenActive {
@@ -481,6 +478,7 @@ button.disabled{
     margin: auto;
     font-size: 1.8rem;
     text-align: center;
+    text-shadow: 1px 1px 0 black;
 }
 
 .disableClicks{
