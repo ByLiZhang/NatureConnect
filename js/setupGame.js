@@ -31,7 +31,6 @@ class SetupGame{
 		$(event.target).css('display', 'none');
 	}
 	setName(){
-		// debugger;
 		if($('.opponentSelect').val()==="Player2"){
 			if ($('#playerName2').val()!==''){
 				this.playerName2 = $('#playerName2').val();
@@ -92,6 +91,5 @@ class SetupGame{
 		$('.tokens>div').on('click', function(){
 			setupGame.setPlayerTokenImg();
 		});
-		
 	}
 }
