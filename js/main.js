@@ -92,22 +92,11 @@ function resultScreen(result) {
     var seriesLength = parseInt($('.playToNumber').text());
     if (result === 'tie') {
         var winBox = $("<div>").addClass('winBox').text('Tie Game...');
-        $(".winMsg").css('display', 'block');
         $('.winMsg').append(winBox);
     }
     else {
         let winText;
-        if (seriesLength === 1){
-            winText = ' won the match!'
-            var winBox = $("<div>").addClass('winBox');
-            setTimeout(function(){
-                $('.winMsg .winBox').text(activePlayer.name + ' won the match!').css({
-                    color:'red',
-                });
-                $(".winMsg").css('display', 'block');
-            },1);
-        } else {
-            var winbox;
+        var winbox;
             if (activePlayer.playerNumber === 1) {
                 player1.gameWon++;
                 if(!(player1.gameWon > seriesLength/2.0)){
@@ -139,8 +128,6 @@ function resultScreen(result) {
                 }
                 $('.playerDisplay2').text(player2.gameWon);
             }
-
-        }
         $('.winMsg').append(winBox);
     }
 }
