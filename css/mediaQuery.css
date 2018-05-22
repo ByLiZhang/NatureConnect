@@ -92,6 +92,12 @@
         min-height: 50px;
         min-width: 50px;
     }
+    .startBtn, .reselect {
+        min-width: 55%;
+    }
+    .startBtn {
+        margin-top: 0;
+    }
 }
 
 
