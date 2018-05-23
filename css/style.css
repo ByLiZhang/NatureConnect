@@ -23,8 +23,9 @@ body {
     width: 100vw;
     min-width: 320px;
     height: 100vh;
-    /*background-image: url("../assets/scenery-pictures-3.jpg");*/
+    min-height: 750px;
     background-size: cover;
+    background-position-x: center;
     background-attachment: fixed;
     position: relative;
 }

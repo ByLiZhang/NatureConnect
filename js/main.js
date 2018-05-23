@@ -1,5 +1,5 @@
 const bkgImgArr = ['bkg-1.jpg', 'bkg-2.jpg', 'bkg-3.jpg', 'bkg-4.jpg', 'bkg-5.jpg',
-                   'bkg-6.jpg'];
+                   'bkg-6.jpg', 'bkg-7.jpg'];
 $(document).ready(initializeApp);
 
 let activePlayer = null;
