@@ -91,7 +91,7 @@ class Player{
 
 function resultScreen(result) {
     let seriesLength = parseInt($('.playToNumber').text());
-    let winBox = $("<div>").addClass('winBox');
+    let winBox = $('<div>').addClass('winBox');
     if (result === 'tie') {
         winBox.text('Tie Game...');
     } else {
@@ -117,5 +117,5 @@ function resultScreen(result) {
         }
     }
     $('.winMsg').append(winBox);
-    $(".winMsg").css('display', 'flex');
+    $('.winMsg').css('display', 'flex');
 }

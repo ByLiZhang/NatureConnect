@@ -247,7 +247,6 @@ div.playTo > p {
 .token1:hover, .token2:hover, .token3:hover, .token4:hover{
     height: 50%;
     width: 50%;
-    /* box-shadow: 4px 2px 4px rgb(0,0,0); */
     z-index: 1;
 }
 
@@ -264,7 +263,7 @@ div.playTo > p {
 }
 
 .token4 {
-    background-image: url('../assets/token5.png');
+    background-image: url('../assets/token4.png');
 }
 
 .start {
@@ -274,16 +273,11 @@ div.playTo > p {
 }
 
 .startBtn, .reselect {
-    /*display: inline-block;*/
     min-width: 45%;
     height: 30%;
     padding:1%;
-    /*color: #eaefee;*/
     border-radius: 10px;
     background: rgba(75, 189, 271, .3);
-    /*font-size: 2rem;*/
-    /*text-shadow: 2px 1px 0px #010c10;*/
-    /*margin-top: 20px;*/
     margin: 20px 2px 0 2px;
 }
 
@@ -304,7 +298,6 @@ div.playTo > p {
 }
 
 .header{
-    /* width:80%; */
     margin-left:20%;
     text-align:center;
 }
