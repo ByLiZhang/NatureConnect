@@ -34,9 +34,7 @@ h1{
 }
 
 .landingPage {
-    /*width: 100vmin;*/
     height: 100vh;
-    /*margin: 0 auto;*/
     min-height: 280px;
 }
 
@@ -50,19 +48,15 @@ h1{
 .landingHeader {
     height:10%;
     min-height: 85px;
-    /*width:100%;*/
-    /*font-size: 2rem;*/
     text-align:center;
     text-shadow: 3px 3px 0px #010c10;
 }
 
 .landingBody {
     height:90%;
-    /*width:100%;*/
 }
 
 .landingPlayer {
-    /* height: 90%; */
     background-color: rgba(22,22,22,0.5);
     border-radius: 10px;
     margin: 0 auto;
@@ -77,15 +71,11 @@ h1{
 
 .nameContainer{
     width: 100%;
-    /*margin: 1% auto;*/
     font-size: 0;
-    /* height: 15%; */
 }
 .playerContainer1, .playerContainer2 {
-    /*width: 47%;*/
     height: 20%;
     display: inline-block;
-    /* margin-bottom: 5%;   */
     margin-bottom: 0.5%;  
 }
 
@@ -133,10 +123,8 @@ h1{
 }
 .playerName1, .playerName2 {
     font-size: 1.1rem;
-    /*margin-left: 25%;*/
     border: outset 3px white;
     border-radius: 10px;
-    /*width: 50%;*/
     color: white;
     display: inline-block;
     background-color: rgba(75, 189, 271, .3);
@@ -144,20 +132,15 @@ h1{
 
 .playerName1, .playerName2 {
     width: 50%;
-    /*margin-left: 25%;*/
 }
 
 .playerName2 {
     width: 50%;
-    /* margin-right: 1%;
-    margin-left: 15%; */
 }
 
 #playerName2{
     pointer-events: none;
 }
-
-
 
 .playTo {
     width: 100%;
@@ -209,8 +192,6 @@ h1{
 }
 
 div.playTo > p {
-    /* padding-left:  15%;
-    padding-right: 2%; */
     display:inline-block;
     font-size: 1.5rem;
 }
@@ -263,7 +244,7 @@ div.playTo > p {
 }
 
 .token4 {
-    background-image: url('../assets/token4.png');
+    background-image: url('../assets/token5.png');
 }
 
 .start {
