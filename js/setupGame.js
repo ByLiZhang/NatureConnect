@@ -80,7 +80,7 @@ class SetupGame{
 		let reselect = $("<button>").addClass('reselect').text('Reselect').on('click', function(){
 			setupGame.resetTokens();
 		});
-		$(".tokens").append(start, reselect);
+		$(".tokens").append(reselect, start);
 	}
 	resetTokens(){
 		this.playerImg1= null;
