@@ -44,19 +44,15 @@
         height:unset;
         position:unset;
     }
-    .statsContainer > .resetContainer{
+    .resetContainer{
         width: 30%;
         height: 30%;
         font-size:2rem;
         position: unset;
         position: absolute;
-        top: 2.5%;
-        left: 2.5%;
+        top: 110vw;
+        left: 35%;
         height: unset;
-        font-size: 1.1em;
-        width: unset;
-        bottom: unset;
-        min-width: 18%;
     }
     .header{
         top:2.5%;
@@ -89,8 +85,11 @@
     .startBtn {
         margin-top: 0;
     }
+    .resetBtn, .homeBtn {
+        padding: 5%;
+        font-size: 1.2rem;
+    }
 }
-
 
 @media only screen and (max-width: 480px) {
 	html {
@@ -125,9 +124,9 @@
     .playerContainer{
         margin-bottom: 3%;
     }
-    .statsContainer > .resetContainer{
-        left: 1%;
-        top: 1%;
+    .player1, .player2 {
+        font-size: 1.1rem;
+        text-shadow: 1px 1px black;
     }
 }
 
@@ -140,6 +139,23 @@
     }
     h1 {
         font-size: 3.5rem;
+    }
+    .landingPlayer button{
+        font-size: 2rem;
+    }
+    .resetContainer {
+        top: 50%;
+        left: 35%;
+        width: 35%;
+    }    
+    .resetBtn, .homeBtn {
+        font-size: 2rem;
+    }
+    .activePlayer {
+        font-size: 1.7rem;
+    }
+    .player1, .player2 {
+        font-size: 1.2rem;
     }
 }
 

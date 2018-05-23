@@ -26,6 +26,7 @@ body {
     /*background-image: url("../assets/scenery-pictures-3.jpg");*/
     background-size: cover;
     background-attachment: fixed;
+    position: relative;
 }
 
 h1{
@@ -112,7 +113,7 @@ h1{
 .instructionMsg, .landingPlayer input, .landingPlayer button {
     font-size: 1.5rem;
     text-align: center;
-    color: lightblue;
+    /*color: lightblue;*/
     text-shadow: 1px 1px 0px #010c10;
 }
 .instructionMsg{
@@ -258,7 +259,7 @@ div.playTo > p {
     height: 30%;
     padding:1%;
     border-radius: 10px;
-    background: rgba(75, 189, 271, .3);
+    background: rgba(75, 189, 271, .6);
     margin: 20px 2px 0 2px;
 }
 
@@ -336,7 +337,7 @@ button.disabled{
     padding: 1%;
     color: #eaefee;
     border-radius: 10px;
-    background: rgba(75, 189, 271, .3);
+    background: rgba(75, 189, 271, .7);
     font-size: 1rem;
     display: inline-block;
     text-shadow: 2px 1px 0px #010c10;
@@ -371,7 +372,7 @@ button.disabled{
 .activePlayer{
     font-weight:normal;
     background-color: rgba(75, 189, 271, .95);
-    border: none;
+    border: 2px solid gold;
     font-size: 1.5rem;
     padding-top:1%;
     padding-left: 2%;
@@ -382,7 +383,7 @@ button.disabled{
 .gameContainer{
     height: 75%;
     width: 100%;
-    background-color: rgba(75, 189, 271, .3);
+    background-color: rgba(75, 189, 271, .5);
     border-radius: 5%;
 }
 
