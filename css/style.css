@@ -23,7 +23,7 @@ body {
     width: 100vw;
     min-width: 320px;
     height: 100vh;
-    background-image: url("../assets/scenery-pictures-3.jpg");
+    /*background-image: url("../assets/scenery-pictures-3.jpg");*/
     background-size: cover;
     background-attachment: fixed;
 }
@@ -232,11 +232,11 @@ div.playTo > p {
 }
 
 .token1 {
-    background-image: url('../assets/token1.png');
+    background-image: url('../assets/token2.png');
 }
 
 .token2 {
-    background-image: url('../assets/token2.png');
+    background-image: url('../assets/token4.png');
 }
 
 .token3 {
