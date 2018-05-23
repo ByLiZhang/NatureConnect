@@ -77,14 +77,14 @@
     .gameContainer{
         height:87%;
     }
-    .winMsg {
+/*    .winMsg {
         width: 80vmin;
         margin-top: 7%;
-    }
+    }*/
     .winBox {
-        height: 13%;
+/*        height: 13%;
         width: 80%;
-        margin: auto;
+        margin: auto;*/
         font-size: 2.5rem;
         text-align: center;
     }
