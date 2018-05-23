@@ -29,6 +29,7 @@ body {
 
 h1{
     font-size: 2.5rem;
+    color: lightsalmon;
 }
 
 .landingPage {
@@ -42,6 +43,7 @@ h1{
     margin: 3% auto;
     text-align: center;
     font-size: 1.5rem;
+    color: gold;
 }
 
 .landingHeader {
@@ -69,7 +71,7 @@ h1{
 }
 
 ::placeholder {
-    color:whitesmoke;
+    color: whitesmoke;
 }
 
 .nameContainer{
@@ -291,8 +293,8 @@ div.playTo > p {
 }
 
 .mainPage{
-    width:100vmin;
-    height:100vmin;
+    width: 100vmin;
+    height: 100vmin;
     min-height: 800px;
     min-width: 800px;
     margin: 0 auto;
@@ -304,6 +306,11 @@ div.playTo > p {
     /* width:80%; */
     margin-left:20%;
     text-align:center;
+}
+
+.header, .landingHeader { 
+    margin-top: 20px;
+    margin-bottom: 20px;  
 }
 
 .statsContainer{
@@ -351,7 +358,6 @@ button.disabled{
     min-width: 30%;
 }
 .resetBtn, .homeBtn {
-    /* height: 10%; */
     width:100%;
     padding: 1%;
     color: #eaefee;
@@ -359,9 +365,6 @@ button.disabled{
     background: rgba(75, 189, 271, .3);
     font-size: 1rem;
     display: inline-block;
-    /* position: absolute;
-    bottom: 30%; */
-    left: 2%;
     text-shadow: 2px 1px 0px #010c10;
 }
 
@@ -376,14 +379,13 @@ button.disabled{
     margin-bottom:1%;
 }
 
-
 .player1, .player2{
     height:90%;
     width: 49%;
     display: inline-block;
     text-align:center;
     border-radius: 10px;
-    background-color: rgba(75, 189, 271, .4);
+    background-color: rgba(75, 189, 271, .7);
     font-weight: bold;
     font-size: 1rem;
     padding: 1%;
@@ -394,10 +396,9 @@ button.disabled{
 
 .activePlayer{
     font-weight:normal;
-    background-color: rgba(75, 189, 271, .7);
+    background-color: rgba(75, 189, 271, .95);
     border: none;
     font-size: 1.5rem;
-    vertical-align: center;
     padding-top:1%;
     padding-left: 2%;
     background-repeat: no-repeat;
@@ -449,12 +450,12 @@ button.disabled{
 .tokenContainer{
     height: 16.3%;
     width: 14.28%; 
-    cursor:pointer; 
+    cursor: pointer; 
 }
 .tokenContainer > div{
     border-radius: 50%;
     height: 100%;
-    width:100%;
+    width: 100%;
     z-index: 49;
     border-left: 1px ridge brown;
     border-right: 2px ridge beige;
@@ -464,17 +465,11 @@ button.disabled{
 }
 
 .winMsg {
-/*    height: 13%;
-    width: 80vmin;
-    position: absolute;*/
     display: none;
     width: 100%;
-    /*height: 100%;*/
-    /*background-color: rgba(255,255,255,0.6);*/
     border-radius: 10px;
     border: inset black 3px;
     margin-bottom: 2px;
-
     text-align: center;
     position: absolute;
     top: 50%;
@@ -496,14 +491,8 @@ button.disabled{
 }
 
 .winBox{
-  /*  height: 13%;
-    width: 80%;
-    margin: auto;
-    font-size: 1.8rem;
-    text-align: center;
-    text-shadow: 1px 1px 0 black;*/
      font-size: 1.8rem;
-     text-shadow: 1px 2px 0 black;
+     text-shadow: 1px 1px 0 black;
      align-self: center;
      position: absolute;
      top: 50%;
