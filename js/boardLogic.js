@@ -116,8 +116,7 @@ class Board {
         this.boardArray = [];
         this.createBoard();
         $('.tokenContainer > div').removeAttr('style');
-        
-        $('div.gameContainer').removeClass('disableClicks');
+        $('.gameContainer, .tokenContainer, .tokenHoverContainer').removeClass('disableClicks');
         $('.winMsg').text('');
         activeWinner = false;
         this.changePlayer(true);        

@@ -91,19 +91,15 @@ class Player{
 
 function resultScreen(result) {
     let seriesLength = parseInt($('.playToNumber').text());
+    let winBox = $("<div>").addClass('winBox');
     if (result === 'tie') {
-        let winBox = $("<div>").addClass('winBox').text('Tie Game...');
-        $('.winMsg').css('display', 'flex');
-        $('.winMsg').append(winBox);
-    }
-    else {
-        let winText, winBox;
+        winBox.text('Tie Game...');
+    } else {
         if (activePlayer.playerNumber === 1) {
             player1.gameWon++;
             if(player1.gameWon < seriesLength/2.0){
-                winBox = $("<div>").addClass('winBox').text(player1.name + ' won the game!');
+                winBox.text(player1.name + ' won the game!');
             } else {
-                winBox = $("<div>").addClass('winBox');
                 winBox.text(player1.name + ' won this series!');
                 setupGame.buttonChange();
             }
@@ -112,15 +108,14 @@ function resultScreen(result) {
         else if (activePlayer.playerNumber === 2) {
             player2.gameWon++;
             if(player2.gameWon < seriesLength/2.0){
-                winBox = $("<div>").addClass('winBox').text(player2.name + ' won the game!');
+                winBox.text(player2.name + ' won the game!');
             } else {
-                winBox = $("<div>").addClass('winBox');
                 winBox.text(player2.name + ' won this series!');
                 setupGame.buttonChange();
             }
             $('.playerDisplay2').text(player2.gameWon);
         }
-        $('.winMsg').append(winBox);
-        $(".winMsg").css('display', 'flex');
     }
+    $('.winMsg').append(winBox);
+    $(".winMsg").css('display', 'flex');
 }
