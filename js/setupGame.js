@@ -10,8 +10,8 @@ class SetupGame{
 		this.setPlayerTokenImg.bind(this);
 	}
 	getBestOf() {
-			var bestOf = $('.bestOfOptions option:selected').val();
-			$('.playToNumber').text(bestOf);
+		var bestOf = $('.bestOfOptions option:selected').val();
+		$('.playToNumber').text(bestOf);
 	}
 	setPlayerTokenImg() {
 		var imgPath = $(event.target).css('background-image');
@@ -38,7 +38,6 @@ class SetupGame{
 		} else {
 			this.playerName2 = $('.opponentSelect').val();
 		}
-
 		if ($('#playerName1').val()!==''){
 			this.playerName1 = $('#playerName1').val();
 		}
@@ -72,7 +71,6 @@ class SetupGame{
 		window.location.reload();
 	}
 	showStart(){
-
 		$(".token1, .token2, .token3, .token4").css('display', 'none');
 		let start = $("<button>").addClass('startBtn').text('Start!').on('click', function(){
 			setupGame.hideLandingAndProcessInputs();
