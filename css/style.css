@@ -21,6 +21,7 @@ button:hover {
 }
 body {
     width: 100vw;
+    min-width: 320px;
     height: 100vh;
     background-image: url("../assets/scenery-pictures-3.jpg");
     background-size: cover;
@@ -309,8 +310,7 @@ div.playTo > p {
 }
 
 .header, .landingHeader { 
-    margin-top: 20px;
-    margin-bottom: 20px;  
+    padding-top: 10px;
 }
 
 .statsContainer{
@@ -492,6 +492,7 @@ button.disabled{
 
 .winBox{
      font-size: 1.8rem;
+     color: red;
      text-shadow: 1px 1px 0 black;
      align-self: center;
      position: absolute;
