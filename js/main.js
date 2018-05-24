@@ -46,7 +46,7 @@ function clickHandler(){
 }
 
 function confirmReset(){
-    if($('.resetBtn').text() !== 'Home'){
+    if($('.resetBtn').text() !== 'HomeHome'){ // 'HomeHome' due to having two .resetBtn;
         $('.resetBtn').toggleClass('disabled');
         $('.resetMessageContainer').css({display:'block'});  
     }

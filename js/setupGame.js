@@ -54,7 +54,6 @@ class SetupGame{
 		this.setAiToken();
 		player1 = new Player(this.playerName1, 1, this.token1);
 		player2 = new Player(this.playerName2, 2, this.token2);
-		//manually start hover for first token
 		$(".tokenHoverContainer img").attr('src', 'assets/token' + this.token1 + '.png');
 	}
 	inputChange(currentVal){
