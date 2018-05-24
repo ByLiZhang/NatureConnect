@@ -103,7 +103,7 @@ h1{
     z-index: 49;
     margin: 0px auto;
     border-left: 1px ridge #c8c8c8;
-    border-right: 1px ridge beige;
+    border-right: 2px ridge beige;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
