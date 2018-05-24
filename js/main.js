@@ -1,3 +1,5 @@
+const bkgImgArr = ['bkg-1.jpg', 'bkg-2.jpg', 'bkg-3.jpg', 'bkg-4.jpg', 'bkg-5.jpg',
+                   'bkg-6.jpg', 'bkg-7.jpg'];
 $(document).ready(initializeApp);
 
 let activePlayer = null;
@@ -10,12 +12,19 @@ let tokenAnimation = null;
 let board = null;
 
 function initializeApp(){
+    setBackgroundImg();
     board = new Board();
     setupGame = new SetupGame();
     clickHandler();
     tokenExplosion = new TokenExplosion();
     tokenAnimation = new TokenAnimation();
     focusPlayer1();
+}
+
+function setBackgroundImg() {
+    let imgIndex = Math.floor(Math.random()*(bkgImgArr.length));
+    const style = {'background-image': `url("./assets/bkgImages/${bkgImgArr[imgIndex]}")`};
+    $(document.body).css(style);
 }
 
 function clickHandler(){
@@ -37,7 +46,7 @@ function clickHandler(){
 }
 
 function confirmReset(){
-    if($('.resetBtn').text() !== 'Home'){
+    if($('.resetBtn').text() !== 'HomeHome'){ // 'HomeHome' due to having two .resetBtn;
         $('.resetBtn').toggleClass('disabled');
         $('.resetMessageContainer').css({display:'block'});  
     }

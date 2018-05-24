@@ -20,12 +20,12 @@ button:hover {
     box-shadow: 0px 0px 25px rgb(212, 237, 216);
 }
 body {
-    width: 100vw;
     min-width: 320px;
     height: 100vh;
-    background-image: url("../assets/scenery-pictures-3.jpg");
     background-size: cover;
+    background-position-x: center;
     background-attachment: fixed;
+    position: relative;
 }
 
 h1{
@@ -34,9 +34,7 @@ h1{
 }
 
 .landingPage {
-    /*width: 100vmin;*/
     height: 100vh;
-    /*margin: 0 auto;*/
     min-height: 280px;
 }
 
@@ -50,19 +48,15 @@ h1{
 .landingHeader {
     height:10%;
     min-height: 85px;
-    /*width:100%;*/
-    /*font-size: 2rem;*/
     text-align:center;
     text-shadow: 3px 3px 0px #010c10;
 }
 
 .landingBody {
     height:90%;
-    /*width:100%;*/
 }
 
 .landingPlayer {
-    /* height: 90%; */
     background-color: rgba(22,22,22,0.5);
     border-radius: 10px;
     margin: 0 auto;
@@ -77,15 +71,11 @@ h1{
 
 .nameContainer{
     width: 100%;
-    /*margin: 1% auto;*/
     font-size: 0;
-    /* height: 15%; */
 }
 .playerContainer1, .playerContainer2 {
-    /*width: 47%;*/
     height: 20%;
     display: inline-block;
-    /* margin-bottom: 5%;   */
     margin-bottom: 0.5%;  
 }
 
@@ -113,7 +103,7 @@ h1{
     z-index: 49;
     margin: 0px auto;
     border-left: 1px ridge #c8c8c8;
-    border-right: 2px ridge beige;
+    border-right: 1px ridge beige;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -122,7 +112,6 @@ h1{
 .instructionMsg, .landingPlayer input, .landingPlayer button {
     font-size: 1.5rem;
     text-align: center;
-    color: lightblue;
     text-shadow: 1px 1px 0px #010c10;
 }
 .instructionMsg{
@@ -133,10 +122,8 @@ h1{
 }
 .playerName1, .playerName2 {
     font-size: 1.1rem;
-    /*margin-left: 25%;*/
     border: outset 3px white;
     border-radius: 10px;
-    /*width: 50%;*/
     color: white;
     display: inline-block;
     background-color: rgba(75, 189, 271, .3);
@@ -144,20 +131,15 @@ h1{
 
 .playerName1, .playerName2 {
     width: 50%;
-    /*margin-left: 25%;*/
 }
 
 .playerName2 {
     width: 50%;
-    /* margin-right: 1%;
-    margin-left: 15%; */
 }
 
 #playerName2{
     pointer-events: none;
 }
-
-
 
 .playTo {
     width: 100%;
@@ -201,7 +183,6 @@ h1{
     border-radius: 10px;
     font-size: 1rem;
     text-align-last:center;
-
 }
 
 .others {
@@ -209,8 +190,6 @@ h1{
 }
 
 div.playTo > p {
-    /* padding-left:  15%;
-    padding-right: 2%; */
     display:inline-block;
     font-size: 1.5rem;
 }
@@ -251,11 +230,11 @@ div.playTo > p {
 }
 
 .token1 {
-    background-image: url('../assets/token1.png');
+    background-image: url('../assets/token2.png');
 }
 
 .token2 {
-    background-image: url('../assets/token2.png');
+    background-image: url('../assets/token4.png');
 }
 
 .token3 {
@@ -263,7 +242,7 @@ div.playTo > p {
 }
 
 .token4 {
-    background-image: url('../assets/token4.png');
+    background-image: url('../assets/token5.png');
 }
 
 .start {
@@ -277,8 +256,12 @@ div.playTo > p {
     height: 30%;
     padding:1%;
     border-radius: 10px;
-    background: rgba(75, 189, 271, .3);
+    background: rgba(75, 189, 271, .6);
     margin: 20px 2px 0 2px;
+}
+.startBtn {
+    color: rgb(99,255,99);
+    font-weight: bold;
 }
 
 .landingPlayer .startBtn:hover{
@@ -346,7 +329,6 @@ button.disabled{
     background: rgba(75, 189, 271, .3);
     font-size: 1rem;
     display: inline-block;
-    left: 2%;
     text-shadow: 2px 1px 0px #010c10;
     min-width: 30%;
 }
@@ -355,7 +337,7 @@ button.disabled{
     padding: 1%;
     color: #eaefee;
     border-radius: 10px;
-    background: rgba(75, 189, 271, .3);
+    background: rgba(75, 189, 271, .7);
     font-size: 1rem;
     display: inline-block;
     text-shadow: 2px 1px 0px #010c10;
@@ -390,7 +372,7 @@ button.disabled{
 .activePlayer{
     font-weight:normal;
     background-color: rgba(75, 189, 271, .95);
-    border: none;
+    border: 2px solid gold;
     font-size: 1.5rem;
     padding-top:1%;
     padding-left: 2%;
@@ -401,7 +383,7 @@ button.disabled{
 .gameContainer{
     height: 75%;
     width: 100%;
-    background-color: rgba(75, 189, 271, .3);
+    background-color: rgba(75, 189, 271, .5);
     border-radius: 5%;
 }
 
@@ -509,4 +491,8 @@ button.disabled{
 
 .hide{
     display:none;
+}
+
+.resetContainerNew {
+    display: none;
 }

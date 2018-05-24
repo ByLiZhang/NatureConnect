@@ -10,8 +10,8 @@ class SetupGame{
 		this.setPlayerTokenImg.bind(this);
 	}
 	getBestOf() {
-			var bestOf = $('.bestOfOptions option:selected').val();
-			$('.playToNumber').text(bestOf);
+		var bestOf = $('.bestOfOptions option:selected').val();
+		$('.playToNumber').text(bestOf);
 	}
 	setPlayerTokenImg() {
 		var imgPath = $(event.target).css('background-image');
@@ -38,7 +38,6 @@ class SetupGame{
 		} else {
 			this.playerName2 = $('.opponentSelect').val();
 		}
-
 		if ($('#playerName1').val()!==''){
 			this.playerName1 = $('#playerName1').val();
 		}
@@ -55,7 +54,6 @@ class SetupGame{
 		this.setAiToken();
 		player1 = new Player(this.playerName1, 1, this.token1);
 		player2 = new Player(this.playerName2, 2, this.token2);
-		//manually start hover for first token
 		$(".tokenHoverContainer img").attr('src', 'assets/token' + this.token1 + '.png');
 	}
 	inputChange(currentVal){
@@ -72,7 +70,6 @@ class SetupGame{
 		window.location.reload();
 	}
 	showStart(){
-
 		$(".token1, .token2, .token3, .token4").css('display', 'none');
 		let start = $("<button>").addClass('startBtn').text('Start!').on('click', function(){
 			setupGame.hideLandingAndProcessInputs();
