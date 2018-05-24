@@ -44,14 +44,14 @@
         position:unset;
     }
     .resetContainer{
-        width: 30%;
-        height: 30%;
-        font-size:2rem;
-        position: unset;
-        position: absolute;
-        top: 91%;
-        left: 35%;
-        height: unset;
+        display: none;
+    }
+    .resetContainerNew{
+        display: block;
+        width: 35%;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 20px;
     }
     .header{
         top:2.5%;
@@ -87,6 +87,14 @@
     .resetBtn, .homeBtn {
         padding: 5%;
         font-size: 1.2rem;
+    }
+    .resetContainerNew .confirmReset{
+        font-size: 1.2rem;
+        margin: 5px 0;
+        text-align: center;
+    }
+    .yesBtn{
+        margin: 0 10%;
     }
 }
 
@@ -124,6 +132,9 @@
         font-size: 1.1rem;
         text-shadow: 1px 1px black;
     }
+    .gameboard{
+        height: 75%;
+    }
 }
 
 @media only screen and (max-width: 375px) {
@@ -139,9 +150,6 @@
     .landingPlayer button{
         font-size: 2rem;
     }
-    .resetContainer {
-        width: 35%;
-    }    
     .resetBtn, .homeBtn {
         font-size: 2rem;
     }
