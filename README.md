@@ -13,7 +13,7 @@ This project was originally built during a 2-day hackathon. It grew out of our d
 ## Usage
 Player(s) can choose the number of matches to play in a Best-of-N series.
 
-To add more depth to the Connect Four game play, we programmed a simple AI that is enabled against a single player by default. Two-players mode can be selected by clicking the AI/Human dropdown menu. Prospective players only need to select their tokens, and then click on the start button to begin!
+To add more depth to the Connect Four game play, we programmed a simple AI that is enabled against a single player by default. Two-players mode can be selected by clicking the AI/Human  box for a dropdown menu. Prospective players only need to select their tokens, and then click on the start button to begin!
 
 ## Project
 
@@ -21,7 +21,7 @@ View this project live [HERE](http://natureconnect.briantmorris.com/)
 
 ## Features
 
-- [x] Multiplayer Mode
+- [x] Single and Multi-player Mode
 - [x] Single Player vs AI
 - [x] Best-of-N series selection
 - [x] Responsive design for Desktop and Mobile devices
@@ -33,6 +33,7 @@ View this project live [HERE](http://natureconnect.briantmorris.com/)
 - [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
 - [CSS3](https://www.w3.org/Style/CSS/Overview.en.html)
 - [jQuery](https://jquery.com/)
+- [jQuery UI](https://jqueryui.com/)
 
 ## Contributors
 
