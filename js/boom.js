@@ -6,7 +6,7 @@ class TokenExplosion{
     spawnParticle(transform, delay, lifeTime){ 
         function birthMe(){
             var colorArray = ['red', 'orange', 'yellow', 'orangered']
-            var randomColor = colorArray[Math.floor(Math.random()*3)];
+            var randomColor = colorArray[Math.floor(Math.random()*colorArray.length)];
             var boom = $("<div>").addClass('particle').css({
                 'background-color': randomColor,
                 'transition-duration': lifeTime+'ms',
