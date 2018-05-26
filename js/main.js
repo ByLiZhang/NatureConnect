@@ -23,7 +23,9 @@ function initializeApp(){
 
 function setBackgroundImg() {
     let imgIndex = Math.floor(Math.random()*(bkgImgArr.length));
-    const style = {'background-image': `url("./assets/bkgImages/${bkgImgArr[imgIndex]}")`};
+    const style = {
+        'background-image': `url("./assets/bkgImages/${bkgImgArr[imgIndex]}")`
+    };
     $(document.body).css(style);
 }
 
