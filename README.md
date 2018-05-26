@@ -17,7 +17,7 @@ To add more depth to the Connect Four game play, we programmed a simple AI that 
 
 ## Project
 
-View this project live [HERE](http://natureconnect.briantmorris.com/)
+View this project live [HERE](http://natureconnect.bylizhang.com/)
 
 ## Features
 
