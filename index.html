@@ -27,7 +27,7 @@
             <div class="landingPlayer">
                 <div class="playTo">
                     <p>Playing for Best of</p>
-                    <select name='bestOf' class="bestOfOptions">
+                    <select name='bestOf' class="bestOfOptions" title="Select how many games to play">
                         <option value="1" class="others">1</option>
                         <option value="3" class="others">3</option>
                         <option value="5" class="others">5</option>
@@ -38,14 +38,14 @@
                 <p>Select your token to play!</p>
                 <div class="nameContainer">
                     <div class= "playerContainer1">
-                        <input type="text" class="playerName1" id="playerName1" placeholder="Player1" maxlength="10">
+                        <input type="text" class="playerName1" id="playerName1" placeholder="Player1" maxlength="10" title="Input player1 name here">
                     </div>
                     <div class = "playerContainer2">
-                        <input type="text" class="playerName2" id="playerName2" placeholder="AI" maxlength="10">
+                        <input type="text" class="playerName2" id="playerName2" placeholder="AI" maxlength="10" title="Input player2 name here">
                     </div>
                     <div class="spacer"></div>
                     <div class="opponentList">
-                        <select name='opponent' class="opponentSelect" onchange="setupGame.inputChange(this.value)">
+                        <select name='opponent' title="Choose to play against AI or another player" class="opponentSelect" onchange="setupGame.inputChange(this.value)">
                             <option value="AI" class="others">AI</option>
                             <option value="Player2" class="others">Human</option>
                         </select>
